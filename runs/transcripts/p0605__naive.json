@@ -1,0 +1,60 @@
+{
+ "problem": "p0605",
+ "sim": "naive",
+ "initial_answer": "42",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! In your own words, what is the problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "Um, how much money Patrick made selling lemonade for the whole 6 hours, I think."
+  },
+  {
+   "role": "tutor",
+   "text": "Yes. How much money did he make in just one of the first four hours?"
+  },
+  {
+   "role": "student",
+   "text": "He sold 15 cups at fifty cents each, so that's 7.50 dollars?"
+  },
+  {
+   "role": "tutor",
+   "text": "Good. How many hours did he sell at that rate?"
+  },
+  {
+   "role": "student",
+   "text": "Four hours. So 7.50 times 4 is 30 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. What happened in the next two hours?"
+  },
+  {
+   "role": "student",
+   "text": "He sold 10 cups at 60 cents, so that's 6 dollars an hour, and for two hours it's 12 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "So you have 30 dollars and 12 dollars. What does the problem want you to do with those?"
+  },
+  {
+   "role": "student",
+   "text": "Add them, I guess, since it's the total for 6 hours. So 42 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "Why does adding those two amounts give what Patrick earned in all 6 hours?"
+  },
+  {
+   "role": "student",
+   "text": "Because the first 4 hours and the next 2 hours are different parts of the 6 hours, so you put the money from both together."
+  },
+  {
+   "role": "tutor",
+   "text": "Exactly, the two chunks cover all the hours with no overlap. [END]"
+  }
+ ],
+ "final_answer": "42"
+}

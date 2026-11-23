@@ -1,0 +1,68 @@
+{
+ "problem": "p0662",
+ "sim": "naive",
+ "initial_answer": "$7",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi there! What is the problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "Um, how much the apple pie cost, I think."
+  },
+  {
+   "role": "tutor",
+   "text": "Yep. What do you know about how much Gus spent in all?"
+  },
+  {
+   "role": "student",
+   "text": "He spent $20 total."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. Which things did he buy that we know the prices of?"
+  },
+  {
+   "role": "student",
+   "text": "The chips, the fried chicken, and the soda."
+  },
+  {
+   "role": "tutor",
+   "text": "How much did the chips cost altogether?"
+  },
+  {
+   "role": "student",
+   "text": "Two bags at $2 each, so $4."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. What do the chips, chicken, and soda cost all together?"
+  },
+  {
+   "role": "student",
+   "text": "Four plus eight plus one, that's 13."
+  },
+  {
+   "role": "tutor",
+   "text": "How could you use that 13 and the $20 to find the pie?"
+  },
+  {
+   "role": "student",
+   "text": "Subtract? So 20 minus 13 is 7, the pie cost $7."
+  },
+  {
+   "role": "tutor",
+   "text": "Why does subtracting work here?"
+  },
+  {
+   "role": "student",
+   "text": "Because the 20 is everything he spent, and 13 was the other stuff, so what's left is the pie."
+  },
+  {
+   "role": "tutor",
+   "text": "That makes sense. [END]"
+  }
+ ],
+ "final_answer": "$7"
+}

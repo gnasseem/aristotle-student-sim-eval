@@ -1,0 +1,44 @@
+{
+ "problem": "p0091",
+ "sim": "grounded",
+ "initial_answer": "24",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi, welcome! What total did you get for the pets, and how did you get it?"
+  },
+  {
+   "role": "student",
+   "text": "I got 24. Marcia has 6 and Jan has 18, so I added 6 and 18."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice job finding Marcia's and Jan's pets. Which people does the question ask us to count in the total?"
+  },
+  {
+   "role": "student",
+   "text": "Um, the three of them, so Jan, Marcia, and Cindy. Oh, I left out Cindy!"
+  },
+  {
+   "role": "tutor",
+   "text": "Good catch. So what do you get for the total now?"
+  },
+  {
+   "role": "student",
+   "text": "Cindy has 4, so 24 plus 4 is 28."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice work. Can you explain why adding those three numbers gives the answer to the question?"
+  },
+  {
+   "role": "student",
+   "text": "Because the question asks for all the pets the three of them have, so I add Cindy's 4, Marcia's 6 and Jan's 18 together."
+  },
+  {
+   "role": "tutor",
+   "text": "That makes sense, great explanation. [END]"
+  }
+ ],
+ "final_answer": "28"
+}

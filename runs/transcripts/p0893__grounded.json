@@ -1,0 +1,68 @@
+{
+ "problem": "p0893",
+ "sim": "grounded",
+ "initial_answer": "$96",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi there! What answer did you get for Mark's weekly pay, and how did you get it?"
+  },
+  {
+   "role": "student",
+   "text": "I got $96. I did 8 hours times the new pay of $12."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay. What does that 8 hours tell us in the problem?"
+  },
+  {
+   "role": "student",
+   "text": "It's how many hours he works each day. I still think 96 is right though."
+  },
+  {
+   "role": "tutor",
+   "text": "The question asks about how much he makes in what length of time?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, a week. I only did one day, huh."
+  },
+  {
+   "role": "tutor",
+   "text": "So how many hours does Mark work in a whole week?"
+  },
+  {
+   "role": "student",
+   "text": "Um, 8 times 5 is 40 hours."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. Now what is his hourly pay after the raise?"
+  },
+  {
+   "role": "student",
+   "text": "Um, $2? Wait, no, that's just the raise. It's 10 plus 2, so $12."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice catch. Using his weekly hours and that hourly pay, how could you find his weekly pay?"
+  },
+  {
+   "role": "student",
+   "text": "Multiply 40 by 12, so that's 480 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "Why does multiplying the hours by the hourly pay give his weekly pay?"
+  },
+  {
+   "role": "student",
+   "text": "Because he gets $12 for every hour, so you add 12 for each of the 40 hours, and I forgot to count all the days at first."
+  },
+  {
+   "role": "tutor",
+   "text": "That makes sense, great explaining. [END]"
+  }
+ ],
+ "final_answer": "$480"
+}

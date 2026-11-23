@@ -1,0 +1,76 @@
+{
+ "problem": "p0091",
+ "sim": "naive",
+ "initial_answer": "28",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! In your own words, what is the problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "Um, how many pets all three of them have together, I think."
+  },
+  {
+   "role": "tutor",
+   "text": "Right. Which person's number of pets do you already know?"
+  },
+  {
+   "role": "student",
+   "text": "Cindy, she has four."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. How could you use Cindy's pets to figure out Marcia's?"
+  },
+  {
+   "role": "student",
+   "text": "Marcia has two more, so... 4 times 2? That's 8."
+  },
+  {
+   "role": "tutor",
+   "text": "Let's look at the words. When it says \"two more than\" Cindy, what should you do with the four?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, add? So 4 plus 2 is 6. Marcia has 6."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. How does Jan's number connect to Marcia's?"
+  },
+  {
+   "role": "student",
+   "text": "Jan has three times as many, so 6 plus 3? That's 9."
+  },
+  {
+   "role": "tutor",
+   "text": "What does \"three times\" mean, is it the same as adding three?"
+  },
+  {
+   "role": "student",
+   "text": "Hmm, no, times means multiply. So 6 times 3 is 18."
+  },
+  {
+   "role": "tutor",
+   "text": "Great. So what do you know about each person, and what is the question asking for?"
+  },
+  {
+   "role": "student",
+   "text": "Cindy 4, Marcia 6, Jan 18, and it wants the total. 4 plus 6 is 10, and 10 plus 18 is 28. So 28."
+  },
+  {
+   "role": "tutor",
+   "text": "Can you explain why adding all three gives the answer, and why you multiplied for Jan but added for Marcia?"
+  },
+  {
+   "role": "student",
+   "text": "Because the question wants the total of all of them. And \"more than\" is adding but \"times\" is multiplying, I think."
+  },
+  {
+   "role": "tutor",
+   "text": "That makes sense, nice explanation. [END]"
+  }
+ ],
+ "final_answer": "28"
+}

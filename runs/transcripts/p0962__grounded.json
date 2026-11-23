@@ -1,0 +1,52 @@
+{
+ "problem": "p0962",
+ "sim": "grounded",
+ "initial_answer": "200",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! What did you get for how much the travel costs, and how did you get it?"
+  },
+  {
+   "role": "student",
+   "text": "I got 200 dollars. I did 50% of 400."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay, 50% of 400 is the part you found. The problem says the tickets cost 50% more than the supplies, so what does \"more than\" tell you about the tickets compared to the supplies?"
+  },
+  {
+   "role": "student",
+   "text": "Um, that they cost more than the supplies? But I still think it's 200, since that's 50% of 400."
+  },
+  {
+   "role": "tutor",
+   "text": "If the supplies cost 400 dollars and the tickets cost 200, which one is bigger?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, the supplies are bigger. So the tickets can't be 200 if they cost more... I guess I have to add it to the 400."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice noticing. So what amount would you have for the tickets then?"
+  },
+  {
+   "role": "student",
+   "text": "400 plus 200, so 600 dollars?"
+  },
+  {
+   "role": "tutor",
+   "text": "Can you explain why adding the 200 to the 400 makes sense here?"
+  },
+  {
+   "role": "student",
+   "text": "Because the tickets cost the supplies plus 50% extra. So the travel cost is 600 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "Exactly, the tickets are the supplies plus half of the supplies. [END]"
+  }
+ ],
+ "final_answer": "600"
+}

@@ -1,0 +1,52 @@
+{
+ "problem": "p0850",
+ "sim": "naive",
+ "initial_answer": "70",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! What is the problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "How many goats are left in both farms after he sold some, I think."
+  },
+  {
+   "role": "tutor",
+   "text": "Right. How many goats did Mr. Smith have in total at the start?"
+  },
+  {
+   "role": "student",
+   "text": "100, because 55 plus 45."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. How many goats did he sell from each farm?"
+  },
+  {
+   "role": "student",
+   "text": "10 from Farm X and 20 from Farm Y, since it's twice as many."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. How many did he sell in all, and what does that leave?"
+  },
+  {
+   "role": "student",
+   "text": "30 sold, so 100 minus 30 is 70. The answer is 70."
+  },
+  {
+   "role": "tutor",
+   "text": "Can you explain why subtracting the total sold from the starting total works?"
+  },
+  {
+   "role": "student",
+   "text": "Because the sold goats aren't on the farms anymore, so you take them away from all the goats he had."
+  },
+  {
+   "role": "tutor",
+   "text": "That's exactly the reasoning. [END]"
+  }
+ ],
+ "final_answer": "70"
+}

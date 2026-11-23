@@ -1,0 +1,68 @@
+{
+ "problem": "p0893",
+ "sim": "naive",
+ "initial_answer": "480",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi there! What is the problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "How much money Mark makes in one whole week, I think."
+  },
+  {
+   "role": "tutor",
+   "text": "Right. What do you know about how much he gets paid per hour now?"
+  },
+  {
+   "role": "student",
+   "text": "He used to get $10 but they raised it by $2, so I think it's $12 an hour now?"
+  },
+  {
+   "role": "tutor",
+   "text": "Good. How many hours does he work in a day, and how many days a week?"
+  },
+  {
+   "role": "student",
+   "text": "8 hours a day and 5 days a week."
+  },
+  {
+   "role": "tutor",
+   "text": "So how could you find the total hours he works in a week?"
+  },
+  {
+   "role": "student",
+   "text": "Um, 8 plus 5? That's 13 hours."
+  },
+  {
+   "role": "tutor",
+   "text": "Let's test that on a smaller case. If he works 8 hours a day, how many hours is that after 2 days?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, that's 16. So I should multiply, 8 times 5 is 40 hours."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. With 40 hours and his pay per hour, what could you do to find his weekly pay?"
+  },
+  {
+   "role": "student",
+   "text": "Multiply 40 times 12? That's 480, so he makes $480 a week."
+  },
+  {
+   "role": "tutor",
+   "text": "Why did you use 12 instead of 10, and why multiply?"
+  },
+  {
+   "role": "student",
+   "text": "Because the raise makes it 12 now, and every hour he gets 12 dollars, so 40 hours is 40 groups of 12."
+  },
+  {
+   "role": "tutor",
+   "text": "That's a clear explanation. [END]"
+  }
+ ],
+ "final_answer": "480"
+}

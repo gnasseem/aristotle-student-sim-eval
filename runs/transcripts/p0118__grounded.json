@@ -1,0 +1,68 @@
+{
+ "problem": "p0118",
+ "sim": "grounded",
+ "initial_answer": "6",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi, welcome! How many containers did you get for the second day, and how did you get it?"
+  },
+  {
+   "role": "student",
+   "text": "I got 6. I did 30 divided by 5 because each container has 5 vehicles."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay, let's look at the 30. Which days' vehicles does that 30 count?"
+  },
+  {
+   "role": "student",
+   "text": "Um, it's the total at the port, so it has the first day's vehicles in it too. Oh, so that's not just the second day."
+  },
+  {
+   "role": "tutor",
+   "text": "Right, so let's start there. How many vehicles came in on the first day?"
+  },
+  {
+   "role": "student",
+   "text": "Two containers with 5 each, so 10 vehicles."
+  },
+  {
+   "role": "tutor",
+   "text": "So how could you use that 10 and the 30 to find the vehicles that came on the second day?"
+  },
+  {
+   "role": "student",
+   "text": "I subtract them, so 30 minus 10 is 20 vehicles."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. Now you know the second day had 20 vehicles and each container holds 5. What do you do to find the containers?"
+  },
+  {
+   "role": "student",
+   "text": "I multiply 20 times 5? That makes 100 containers."
+  },
+  {
+   "role": "tutor",
+   "text": "Hmm, would 100 containers hold 20 vehicles or a lot more? How many 5s fit into 20?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, that's way too many. It's how many groups of 5 are in 20, so I divide. 20 divided by 5 is 4."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. Can you explain why dividing worked, and why we subtracted the first day?"
+  },
+  {
+   "role": "student",
+   "text": "We subtracted 10 because the 30 included the first day's vehicles. Then the 20 left is the second day, and each container has 5, so it's 4 containers."
+  },
+  {
+   "role": "tutor",
+   "text": "That's a clear explanation. [END]"
+  }
+ ],
+ "final_answer": "4"
+}

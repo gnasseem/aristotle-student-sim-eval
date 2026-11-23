@@ -1,0 +1,52 @@
+{
+ "problem": "p0962",
+ "sim": "naive",
+ "initial_answer": "450",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! What is this problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "Um, how much the travel costs for Jen's trip, I think."
+  },
+  {
+   "role": "tutor",
+   "text": "Right. What do you know about the supplies, and how do the tickets compare to them?"
+  },
+  {
+   "role": "student",
+   "text": "The supplies are $400 and the tickets are 50% more. So maybe 400 plus 50 is 450?"
+  },
+  {
+   "role": "tutor",
+   "text": "You added 50. What does 50% mean here, 50% of what?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, 50% of the 400? So like half of 400, that's 200?"
+  },
+  {
+   "role": "tutor",
+   "text": "Good. What is the 'more' in '50% more' telling you to do with that 200?"
+  },
+  {
+   "role": "student",
+   "text": "Add it to the 400, so 600? Is that the answer?"
+  },
+  {
+   "role": "tutor",
+   "text": "Why does adding it to the 400 make sense for the tickets?"
+  },
+  {
+   "role": "student",
+   "text": "Because 50% more means the supplies plus half of the supplies, so 400 plus 200 is 600."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice explanation. [END]"
+  }
+ ],
+ "final_answer": "600"
+}

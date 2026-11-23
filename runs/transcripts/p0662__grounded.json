@@ -1,0 +1,68 @@
+{
+ "problem": "p0662",
+ "sim": "grounded",
+ "initial_answer": "9",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! What is the problem asking you to find, and what answer did you get?"
+  },
+  {
+   "role": "student",
+   "text": "It's asking how much the apple pie cost. I got $9."
+  },
+  {
+   "role": "tutor",
+   "text": "Walk me through it. What did you add up first?"
+  },
+  {
+   "role": "student",
+   "text": "I added the chips $2, the chicken $8, and the soda $1 to get 11. Then 20 minus 11 is 9."
+  },
+  {
+   "role": "tutor",
+   "text": "Let's look at the chips. How many bags did Gus buy, and what does the $2.00 stand for?"
+  },
+  {
+   "role": "student",
+   "text": "He bought 2 bags, and the $2.00 is for each bag. Oh, I only counted one bag."
+  },
+  {
+   "role": "tutor",
+   "text": "So what do the chips cost altogether?"
+  },
+  {
+   "role": "student",
+   "text": "Two bags at $2 each is $4."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. So what do all the things besides the pie cost now?"
+  },
+  {
+   "role": "student",
+   "text": "4 plus 8 is 12, plus 1 is... 13. It's 13."
+  },
+  {
+   "role": "tutor",
+   "text": "How does that 13 connect to the $20 Gus spent?"
+  },
+  {
+   "role": "student",
+   "text": "The pie is what's left, so 20 minus 13 is 7. The pie cost $7."
+  },
+  {
+   "role": "tutor",
+   "text": "Why does subtracting from 20 give you the pie's price?"
+  },
+  {
+   "role": "student",
+   "text": "Because 20 is everything he spent, and 13 is all the stuff that isn't the pie, so what's left over is the pie."
+  },
+  {
+   "role": "tutor",
+   "text": "Exactly, you explained it well. [END]"
+  }
+ ],
+ "final_answer": "7"
+}

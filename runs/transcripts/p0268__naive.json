@@ -1,0 +1,52 @@
+{
+ "problem": "p0268",
+ "sim": "naive",
+ "initial_answer": "1375",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi there! In your own words, what is this problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "Um, how much money the agent spent on all the ads together?"
+  },
+  {
+   "role": "tutor",
+   "text": "Right. How could you find what he spent on just the newspaper ads?"
+  },
+  {
+   "role": "student",
+   "text": "Multiply 5 times 50, so that's 250."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. And how would you find what he spent on the television ads?"
+  },
+  {
+   "role": "student",
+   "text": "75 times 15, which is 1125, I think."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay, so you have two amounts now. What would you do with them to answer the question?"
+  },
+  {
+   "role": "student",
+   "text": "Add them, so 250 plus 1125 is 1375. He spent $1375."
+  },
+  {
+   "role": "tutor",
+   "text": "Can you explain why adding those two amounts gives the total spent?"
+  },
+  {
+   "role": "student",
+   "text": "Because newspaper ads and TV ads are separate costs, so the total is both of them put together."
+  },
+  {
+   "role": "tutor",
+   "text": "That makes sense, nice reasoning. [END]"
+  }
+ ],
+ "final_answer": "1375"
+}

@@ -1,0 +1,52 @@
+{
+ "problem": "p0540",
+ "sim": "naive",
+ "initial_answer": "39",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi there! Where do you think we should start with this problem?"
+  },
+  {
+   "role": "student",
+   "text": "Um, I think we split the 18 between the 3 boys? So each one gets 6."
+  },
+  {
+   "role": "tutor",
+   "text": "Right, so the eldest starts with 6. What happens to his money next?"
+  },
+  {
+   "role": "student",
+   "text": "He adds 5, so that's 11, and then 10 more the next day, so 21."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. Then he spends some of it. What does he have after that?"
+  },
+  {
+   "role": "student",
+   "text": "He spent 8, so 21 minus 8 is 13."
+  },
+  {
+   "role": "tutor",
+   "text": "Now the problem says he triples the amount he had left. What would you do with the 13?"
+  },
+  {
+   "role": "student",
+   "text": "Triple means times 3, so 13 times 3 is 39. So he has 39 dollars now."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. Can you explain why you tripled the 13 and not the 21?"
+  },
+  {
+   "role": "student",
+   "text": "Because it says he tripled what he had left after spending the 8, and that was 13."
+  },
+  {
+   "role": "tutor",
+   "text": "Exactly, that makes sense. [END]"
+  }
+ ],
+ "final_answer": "39"
+}

@@ -1,0 +1,68 @@
+{
+ "problem": "p0605",
+ "sim": "grounded",
+ "initial_answer": "36",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi, welcome! What answer did you get for the problem?"
+  },
+  {
+   "role": "student",
+   "text": "I got 36 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay, thanks. Can you walk me through how you got 36?"
+  },
+  {
+   "role": "student",
+   "text": "Well, 15 cups times 50 cents is 7.50, and then times 4 hours is 30. Then 10 cups times 60 cents is 6, and I added 30 and 6."
+  },
+  {
+   "role": "tutor",
+   "text": "Your 30 covers four hours. How many hours does your 6 cover?"
+  },
+  {
+   "role": "student",
+   "text": "Um, the next hours at the new price... oh, it's only one hour of it. But it was two hours."
+  },
+  {
+   "role": "tutor",
+   "text": "What would you do to your 6 to fix that?"
+  },
+  {
+   "role": "student",
+   "text": "Times 2, so 6 times 2 is 14."
+  },
+  {
+   "role": "tutor",
+   "text": "Try 6 times 2 again for me."
+  },
+  {
+   "role": "student",
+   "text": "Oh, sorry, it's 12."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. So what are your two parts now, and what do they make together?"
+  },
+  {
+   "role": "student",
+   "text": "30 plus 12 is 42 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice work. Why do you multiply by the number of hours for each part?"
+  },
+  {
+   "role": "student",
+   "text": "Because he sells the same amount every hour, so the money for one hour times how many hours gives the whole part."
+  },
+  {
+   "role": "tutor",
+   "text": "Exactly, that's the idea. [END]"
+  }
+ ],
+ "final_answer": "42"
+}

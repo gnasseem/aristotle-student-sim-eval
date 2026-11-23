@@ -1,0 +1,60 @@
+{
+ "problem": "p0170",
+ "sim": "grounded",
+ "initial_answer": "$125",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi, welcome! What answer did you get for the total cost of one uniform?"
+  },
+  {
+   "role": "student",
+   "text": "Um, I got $125."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay, thanks for sharing. Can you walk me through the first thing you did?"
+  },
+  {
+   "role": "student",
+   "text": "I did 25 times 3 for the jacket, which is 75. Then the pants are the average of the hat and jacket, so I added 25 and 75 and divided by 2 to get 50."
+  },
+  {
+   "role": "tutor",
+   "text": "That sounds careful. So what did you do with those numbers to get to 125?"
+  },
+  {
+   "role": "student",
+   "text": "I added the jacket and the pants, 75 plus 50, and that's 125."
+  },
+  {
+   "role": "tutor",
+   "text": "Let's go back to the problem. What pieces does each uniform come with?"
+  },
+  {
+   "role": "student",
+   "text": "A hat, a jacket, and pants. Oh wait, I didn't put the hat in my total."
+  },
+  {
+   "role": "tutor",
+   "text": "Good catch. So what would you do now to fix your total?"
+  },
+  {
+   "role": "student",
+   "text": "I add the hat's 25 to 125, so it's 150?"
+  },
+  {
+   "role": "tutor",
+   "text": "You tell me, does that fit what the problem asks? Why does adding that number make sense for the cost of one whole uniform?"
+  },
+  {
+   "role": "student",
+   "text": "Because the uniform has all three things, so I have to add the hat, jacket, and pants together. 25 plus 75 plus 50 is 150."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice explanation. [END]"
+  }
+ ],
+ "final_answer": "$150"
+}

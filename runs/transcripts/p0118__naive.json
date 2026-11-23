@@ -1,0 +1,52 @@
+{
+ "problem": "p0118",
+ "sim": "naive",
+ "initial_answer": "6",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! In your own words, what is the problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "How many containers came in on the second day. I think it's 6, because 30 divided by 5 is 6?"
+  },
+  {
+   "role": "tutor",
+   "text": "What does that 6 count: containers from the second day only, or from both days?"
+  },
+  {
+   "role": "student",
+   "text": "Um, I guess all the vehicles at the port, so containers from both days."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. How many containers were already at the port before the second day?"
+  },
+  {
+   "role": "student",
+   "text": "2 containers. Oh, so I should take those away from the 6?"
+  },
+  {
+   "role": "tutor",
+   "text": "Why would taking some away make sense here? What would you take away, and what do you get?"
+  },
+  {
+   "role": "student",
+   "text": "The 2 from the first day, because they were already there. So 6 minus 2 is 4?"
+  },
+  {
+   "role": "tutor",
+   "text": "Can you explain why that works?"
+  },
+  {
+   "role": "student",
+   "text": "Because 30 vehicles is 6 containers total, and 2 were there already, so 4 must have come the next day."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice reasoning, that makes sense. [END]"
+  }
+ ],
+ "final_answer": "4"
+}

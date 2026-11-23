@@ -1,0 +1,84 @@
+{
+ "problem": "p0850",
+ "sim": "grounded",
+ "initial_answer": "80",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi, welcome! What answer did you get for how many goats are left in the two farms?"
+  },
+  {
+   "role": "student",
+   "text": "Um, I got 80."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay, let's walk through it together. How many goats are left in Farm X after he sells some?"
+  },
+  {
+   "role": "student",
+   "text": "55 minus 10 is 45."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. And what did you do for Farm Y?"
+  },
+  {
+   "role": "student",
+   "text": "I did 45 minus 10 is 35, then 45 plus 35 is 80."
+  },
+  {
+   "role": "tutor",
+   "text": "Look at the sentence about Farm Y. How many goats does it say he sold from there?"
+  },
+  {
+   "role": "student",
+   "text": "Oh wait, it says twice as many as Farm X. I forgot to double it."
+  },
+  {
+   "role": "tutor",
+   "text": "So how many goats did he sell from Farm Y?"
+  },
+  {
+   "role": "student",
+   "text": "Twice 10, so 20."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. Now how many goats are left in Farm Y?"
+  },
+  {
+   "role": "student",
+   "text": "45 minus 20 is... 26?"
+  },
+  {
+   "role": "tutor",
+   "text": "Try it in two steps: take away 10 first, then another 10. What do you get?"
+  },
+  {
+   "role": "student",
+   "text": "45 minus 10 is 35, and then 25. So 25 left in Farm Y."
+  },
+  {
+   "role": "tutor",
+   "text": "Great. What do you get for the two farms together?"
+  },
+  {
+   "role": "student",
+   "text": "45 plus 25 is 70."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice work. Can you explain why you had to double the 10 for Farm Y?"
+  },
+  {
+   "role": "student",
+   "text": "Because the problem said he sold twice as many from Farm Y as from Farm X, so 10 times 2 is 20."
+  },
+  {
+   "role": "tutor",
+   "text": "That's right, you read it carefully. [END]"
+  }
+ ],
+ "final_answer": "70"
+}

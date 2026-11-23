@@ -1,0 +1,68 @@
+{
+ "problem": "p0268",
+ "sim": "grounded",
+ "initial_answer": "325",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! What answer did you get, and how did you get it?"
+  },
+  {
+   "role": "student",
+   "text": "I got 325 dollars. I did 5 times 50 for the newspaper ads, then added the 75 for the television ads."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay, 5 times 50 covers the newspaper ads. What does the 75 stand for in the problem?"
+  },
+  {
+   "role": "student",
+   "text": "It's how much he spent on each television ad. So I added it on, and I still think 325 is right."
+  },
+  {
+   "role": "tutor",
+   "text": "How many television ads did he buy?"
+  },
+  {
+   "role": "student",
+   "text": "Fifteen. Oh, I only counted one TV ad, but he bought fifteen of them."
+  },
+  {
+   "role": "tutor",
+   "text": "So what do you need to work out for all the television ads?"
+  },
+  {
+   "role": "student",
+   "text": "How much the TV ads cost together, so 75 times 15. I did 75 times 10 is 750 and 75 times 5 is 355, so 1105."
+  },
+  {
+   "role": "tutor",
+   "text": "Let's look at 75 times 5. Could you split the 75 into 70 and 5 to check it?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, 70 times 5 is 350 and 5 times 5 is 25, so it's 375. Then 750 plus 375 is 1125."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. So what's the newspaper total, and how do you finish the problem?"
+  },
+  {
+   "role": "student",
+   "text": "Newspaper was 250, so I add 250 and 1125, which is 1375."
+  },
+  {
+   "role": "tutor",
+   "text": "Why does it make sense to multiply first and then add?"
+  },
+  {
+   "role": "student",
+   "text": "Because every ad of one kind costs the same, so price times number gives each kind's total, then you add the two kinds. So the answer is 1375."
+  },
+  {
+   "role": "tutor",
+   "text": "Great explanation. [END]"
+  }
+ ],
+ "final_answer": "1375"
+}

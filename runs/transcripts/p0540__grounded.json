@@ -1,0 +1,84 @@
+{
+ "problem": "p0540",
+ "sim": "grounded",
+ "initial_answer": "75",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi, welcome! What answer did you get for the problem?"
+  },
+  {
+   "role": "student",
+   "text": "I got 75 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice, let's look at how you got there. Where did the $18 come into your work?"
+  },
+  {
+   "role": "student",
+   "text": "I started with the 18 and added the 5 and the 10 to get 33. Then I took away 8 and tripled it."
+  },
+  {
+   "role": "tutor",
+   "text": "Who is the $18 shared among, and how many people?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, it's shared among 3 boys. So the eldest doesn't get all 18, I think I skipped that."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay, so how much does the eldest get from the sharing?"
+  },
+  {
+   "role": "student",
+   "text": "18 divided by 3, so 6 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. What does he have after he adds the $5 and then the $10?"
+  },
+  {
+   "role": "student",
+   "text": "6 plus 5 is 11, plus 10 is 21."
+  },
+  {
+   "role": "tutor",
+   "text": "Then he spends $8. What does he have left?"
+  },
+  {
+   "role": "student",
+   "text": "21 minus 8 is 12."
+  },
+  {
+   "role": "tutor",
+   "text": "Try counting down from 21 by 8 again. What do you land on?"
+  },
+  {
+   "role": "student",
+   "text": "Oh wait, it's 13."
+  },
+  {
+   "role": "tutor",
+   "text": "Right. What does the problem say happens to that amount?"
+  },
+  {
+   "role": "student",
+   "text": "He triples it, so 13 times 3 is 39."
+  },
+  {
+   "role": "tutor",
+   "text": "Why does tripling the amount left after spending give what he has now?"
+  },
+  {
+   "role": "student",
+   "text": "Because the tripling is done to what he had left after the 8, so it's 13 three times, which is 39 dollars."
+  },
+  {
+   "role": "tutor",
+   "text": "That makes sense, great work. [END]"
+  }
+ ],
+ "final_answer": "39"
+}

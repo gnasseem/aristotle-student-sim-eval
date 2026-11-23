@@ -1,0 +1,52 @@
+{
+ "problem": "p0170",
+ "sim": "naive",
+ "initial_answer": "150",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi there! What do you think this problem is asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "How much one whole uniform costs, I think. Like the hat, jacket, and pants all together."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. What does the hat cost, and how would you figure out the jacket?"
+  },
+  {
+   "role": "student",
+   "text": "The hat is $25, and the jacket is three times that, so it's $75."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. The pants cost the average of the hat and jacket, so how would you find an average?"
+  },
+  {
+   "role": "student",
+   "text": "You add them up and divide by how many there are. So 25 plus 75 is 100, divided by 2 is 50."
+  },
+  {
+   "role": "tutor",
+   "text": "Great. So what would you do to get the cost of the whole uniform?"
+  },
+  {
+   "role": "student",
+   "text": "Add all three, 25 plus 75 plus 50, so it's $150."
+  },
+  {
+   "role": "tutor",
+   "text": "Can you explain why adding those three prices gives the cost of one uniform?"
+  },
+  {
+   "role": "student",
+   "text": "Because each uniform comes with one hat, one jacket, and one pair of pants, so you add what each costs."
+  },
+  {
+   "role": "tutor",
+   "text": "That makes sense, nice reasoning. [END]"
+  }
+ ],
+ "final_answer": "150"
+}

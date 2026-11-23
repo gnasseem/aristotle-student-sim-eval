@@ -1,0 +1,76 @@
+{
+ "problem": "p1060",
+ "sim": "naive",
+ "initial_answer": "32",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! What do you think this problem is asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "Um, how many slices they ate in total? I think it's 32, because 4 pizzas times 8 slices."
+  },
+  {
+   "role": "tutor",
+   "text": "Good, you worked out how many slices there were. Does the problem say they ate every slice?"
+  },
+  {
+   "role": "student",
+   "text": "Hmm, it doesn't say that actually. So maybe it's not 32?"
+  },
+  {
+   "role": "tutor",
+   "text": "What does the problem tell you about how many slices each person ate? Start with Becky."
+  },
+  {
+   "role": "student",
+   "text": "Becky ate 10 slices."
+  },
+  {
+   "role": "tutor",
+   "text": "Right. Becky ate 3 more than Jake, so how could you figure out how many Jake ate?"
+  },
+  {
+   "role": "student",
+   "text": "Um, add 3? So Jake ate 13?"
+  },
+  {
+   "role": "tutor",
+   "text": "Let's check that. If Jake ate 13, would Becky have eaten more or fewer than Jake?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, fewer. But Becky is supposed to eat more, so Jake ate less, 10 minus 3, which is 7."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice. Silvia ate twice as many as Jake, so how many did she eat?"
+  },
+  {
+   "role": "student",
+   "text": "Twice 7 is 14."
+  },
+  {
+   "role": "tutor",
+   "text": "Great. So how could you find how many slices all three ate together?"
+  },
+  {
+   "role": "student",
+   "text": "Add them up, 10 plus 7 plus 14, that's 31."
+  },
+  {
+   "role": "tutor",
+   "text": "Can you explain why adding those three numbers gives the total, and why it isn't 32?"
+  },
+  {
+   "role": "student",
+   "text": "Because the total they ate is just each person's slices added together. 32 is how many slices there were, but they didn't eat all of them, one was left over."
+  },
+  {
+   "role": "tutor",
+   "text": "Exactly, nice reasoning. [END]"
+  }
+ ],
+ "final_answer": "31"
+}

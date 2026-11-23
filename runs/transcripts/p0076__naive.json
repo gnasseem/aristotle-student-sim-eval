@@ -1,0 +1,84 @@
+{
+ "problem": "p0076",
+ "sim": "naive",
+ "initial_answer": "2",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! What is the problem asking you to find?"
+  },
+  {
+   "role": "student",
+   "text": "How many bags of dog food she uses in the first year. I think it's 2 bags, because 180 days is 180 cups and that's like 2 bags."
+  },
+  {
+   "role": "tutor",
+   "text": "Okay. How many days are in a year?"
+  },
+  {
+   "role": "student",
+   "text": "365 days."
+  },
+  {
+   "role": "tutor",
+   "text": "So after the first 180 days, how many days of that year are left?"
+  },
+  {
+   "role": "student",
+   "text": "Um, 185 days."
+  },
+  {
+   "role": "tutor",
+   "text": "How much does the puppy eat each of those 185 days?"
+  },
+  {
+   "role": "student",
+   "text": "2 cups a day."
+  },
+  {
+   "role": "tutor",
+   "text": "How many cups is that over those 185 days?"
+  },
+  {
+   "role": "student",
+   "text": "185 times 2 is 370 cups."
+  },
+  {
+   "role": "tutor",
+   "text": "And how many cups did the puppy eat in the first 180 days?"
+  },
+  {
+   "role": "student",
+   "text": "180 cups, since it's 1 a day."
+  },
+  {
+   "role": "tutor",
+   "text": "So what's the total number of cups for the whole first year?"
+  },
+  {
+   "role": "student",
+   "text": "180 plus 370 is 550 cups."
+  },
+  {
+   "role": "tutor",
+   "text": "Now what could you do with 550 cups and the size of a bag?"
+  },
+  {
+   "role": "student",
+   "text": "Divide by 110? That's 5, so 5 bags."
+  },
+  {
+   "role": "tutor",
+   "text": "Can you explain why dividing by 110 gives the number of bags?"
+  },
+  {
+   "role": "student",
+   "text": "Because each bag has 110 cups, so I'm seeing how many 110s fit in 550."
+  },
+  {
+   "role": "tutor",
+   "text": "That makes sense. [END]"
+  }
+ ],
+ "final_answer": "5"
+}

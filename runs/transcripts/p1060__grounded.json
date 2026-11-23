@@ -1,0 +1,68 @@
+{
+ "problem": "p1060",
+ "sim": "grounded",
+ "initial_answer": "49",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi! What answer did you get, and how did you start?"
+  },
+  {
+   "role": "student",
+   "text": "I got 49. I added 3 to Becky's 10 to get 13 for Jake, then Silvia's 26."
+  },
+  {
+   "role": "tutor",
+   "text": "Let's compare Becky and Jake. Who ate more slices, according to the problem?"
+  },
+  {
+   "role": "student",
+   "text": "Becky ate more. Oh wait, I made Jake 13, which is more than Becky's 10, so that's backwards."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice catch. So how could you find Jake's slices now?"
+  },
+  {
+   "role": "student",
+   "text": "Take 3 away from 10, so Jake ate 7."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. Silvia ate twice as many as Jake, so how many did she eat?"
+  },
+  {
+   "role": "student",
+   "text": "Twice 7 is 14."
+  },
+  {
+   "role": "tutor",
+   "text": "Now you have all three amounts. What do you do to get the total?"
+  },
+  {
+   "role": "student",
+   "text": "Add them up, 10 plus 7 plus 14. That's 30."
+  },
+  {
+   "role": "tutor",
+   "text": "Let's check the addition. What's 10 plus 7 first, and then what do you add to that?"
+  },
+  {
+   "role": "student",
+   "text": "10 plus 7 is 17, then 17 plus 14 is 31. Oh, I'd miscounted before."
+  },
+  {
+   "role": "tutor",
+   "text": "Great. Can you explain why that method works?"
+  },
+  {
+   "role": "student",
+   "text": "Jake ate 3 less than Becky, Silvia ate double Jake, and then you add all three kids' slices."
+  },
+  {
+   "role": "tutor",
+   "text": "That's clear reasoning, nicely done. [END]"
+  }
+ ],
+ "final_answer": "31"
+}

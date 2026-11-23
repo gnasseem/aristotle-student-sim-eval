@@ -1,0 +1,84 @@
+{
+ "problem": "p0076",
+ "sim": "grounded",
+ "initial_answer": "8 bags",
+ "turns": [
+  {
+   "role": "tutor",
+   "text": "Hi, I'm glad you're here! What answer did you get for how many bags Cecilia uses in the first year?"
+  },
+  {
+   "role": "student",
+   "text": "I got 8 bags."
+  },
+  {
+   "role": "tutor",
+   "text": "Nice, can you walk me through how you got that, starting with the first 180 days?"
+  },
+  {
+   "role": "student",
+   "text": "So the first 180 days is 180 cups. Then the rest of the year is 365 days times 2 cups, that's 730, so 910 total, and 910 divided by 110 is about 8."
+  },
+  {
+   "role": "tutor",
+   "text": "When you multiplied 365 by 2, which days of the year were those 365 days covering?"
+  },
+  {
+   "role": "student",
+   "text": "Um, all the days in the year... oh wait, that includes the first 180 days, which were only 1 cup each."
+  },
+  {
+   "role": "tutor",
+   "text": "Right, so how many days are left after the first 180?"
+  },
+  {
+   "role": "student",
+   "text": "365 minus 180 is 185."
+  },
+  {
+   "role": "tutor",
+   "text": "Good. How many cups does the puppy eat over those 185 days?"
+  },
+  {
+   "role": "student",
+   "text": "185 times 2 is 360."
+  },
+  {
+   "role": "tutor",
+   "text": "Can you check that multiplication again, maybe splitting 185 into 100, 80 and 5?"
+  },
+  {
+   "role": "student",
+   "text": "Oh, 200 plus 160 plus 10 is 370. So 370 cups."
+  },
+  {
+   "role": "tutor",
+   "text": "Great. What's the total number of cups for the whole first year?"
+  },
+  {
+   "role": "student",
+   "text": "180 plus 370 is 550 cups."
+  },
+  {
+   "role": "tutor",
+   "text": "And how could you turn 550 cups into a number of bags?"
+  },
+  {
+   "role": "student",
+   "text": "Divide by 110 since each bag has 110 cups, so it's 5 bags."
+  },
+  {
+   "role": "tutor",
+   "text": "Yes! Can you explain why dividing works, and why you used 185 days instead of 365?"
+  },
+  {
+   "role": "student",
+   "text": "Dividing works because I'm seeing how many 110-cup bags fit into 550 cups. And I used 185 because the first 180 days were already counted at 1 cup."
+  },
+  {
+   "role": "tutor",
+   "text": "Exactly, that's the whole idea. [END]"
+  }
+ ],
+ "final_answer": "5 bags"
+}
